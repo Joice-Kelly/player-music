@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Music</title>
+  <link rel="shortcut icon" href="./img/icons8-song-32.png" type="png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Music Player</h1>
+  <div class="music-container">
+    <div class="music-info">
+      <h4 class="title"></h4> 
+      <div class="progress-container">
+        <div class="progress"></div>
+      </div>
+      </div>
+
+        <audio
+          src="./song/Billie.mp3" id="audio"></audio>
+        <div class="img-container">
+          <img src="./img/D_NQ_NP_626043-MLB47358022314_092021-W.jpg" alt="album AC/DC" id="cover">
+        </div>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fa fa-backward" aria-hidden="true"></i>
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fa fa-forward" aria-hidden="true"></i>
+          </button>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>
